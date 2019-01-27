@@ -1,0 +1,2 @@
+# Created  on python3.6.5-windows
+djangocms-installer==1.0.2

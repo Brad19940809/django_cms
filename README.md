@@ -1,0 +1,6 @@
+- virtualenv en
+- source env/bin/activate
+- pip install -r requirements.txt
+- djangocms another_site
+- cd another_site 
+- python manage.py runserver 0.0.0.0:9000
