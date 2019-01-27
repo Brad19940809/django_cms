@@ -1,4 +1,4 @@
-- virtualenv en
+- virtualenv env
 - source env/bin/activate
 - pip install -r requirements.txt
 - djangocms another_site
