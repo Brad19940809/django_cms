@@ -99,6 +99,8 @@ TEMPLATES = [
 
 
 MIDDLEWARE = (
+    # info:add djedi middleware
+    'djedi.middleware.translation.DjediTranslationMiddleware',
     'cms.middleware.utils.ApphookReloadMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -138,7 +140,9 @@ INSTALLED_APPS = (
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
-    'mysite'
+    'mysite',
+    # info:新添加jiedi
+    'djedi'
 )
 
 LANGUAGES = (
